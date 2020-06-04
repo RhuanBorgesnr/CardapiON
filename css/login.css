@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.form {
+    width: 0px;
+    height: 50px;
+    padding: 20px;
+}
+
+.card-email > input {
+    position: absolute;
+    overflow: visible;
+    background-color: white;
+    width: 672px;
+    height: 56px;
+    left: 624px;
+    top: 349px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+    outline: none;
+}
+
+.card-password > input {
+    position: absolute;
+    overflow: visible;
+    background-color: white;
+    width: 672px;
+    height: 56px;
+    left: 624px;
+    top: 446px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+    outline: none;
+}
+
+.card-login > button {
+    background-color: rgba(240,56,97,1);
+    position: absolute;
+    overflow: visible;
+    width: 315px;
+    height: 51px;
+    left: 803px;
+    top: 515px;
+    border-radius: 40px;
+    text-align: center;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(245,217,126,1);
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(165, 25, 55);
+    color: rgb(228, 187, 54);
+}
+
+#background {
+    position: absolute;
+    width: 1980px;
+    height: 1080px;
+    background-color: rgba(245,217,126,1);
+    overflow: hidden;
+}
+
+#logo {
+    position: absolute;
+    width: 237px;
+    height: 237px;
+    left: 842px;
+    top: 44px;
+    overflow: visible;
+}
+
+.email-box {
+    position: absolute;
+    overflow: visible;
+    width: 679px;
+    height: 63px;
+    left: 622px;
+    top: 347px;
+}
+
+.password-box {
+    position: absolute;
+    overflow: visible;
+    width: 679px;
+    height: 63px;
+    left: 622px;
+    top: 444px;
+}
+
+.login-box {
+    position: absolute;
+    overflow: visible;
+    width: 314px;
+    height: 50px;
+    left: 805px;
+    top: 517px;
+}
+
+#recovertxt {
+    position: absolute;
+    left: 766px;
+    top: 596px;
+    overflow: visible;
+    width: 390px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(240,56,97,1);
+}
+
+.fontesenhatxt {
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(240,56,97,1);
+    text-decoration: none;
+}
+
+.fontecadastrotxt {
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(240,56,97,1);
+    text-decoration: none;
+}
+
+#backtxt {
+    position: absolute;
+    left: 653px;
+    top: 283px;
+    overflow: visible;
+    width: 75px;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.fontevoltartxt {
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    color: rgba(240,56,97,1);   
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.seta {
+    overflow: visible;
+    position: absolute;
+    width: 14.474px;
+    height: 15.061px;
+    left: 631.969px;
+    top: 297.037px;
+    transform: matrix(1,0,0,1,0,0);
+}

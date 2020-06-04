@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.card-restaurantcategory > input {
+    position: absolute;
+    overflow: visible;
+    background-color: white;
+    width: 657px;
+    height: 56px;
+    left: 624px;
+    top: 302px;
+    border-radius: 30px;
+    text-align: center;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+    outline: none;
+}
+
+.card-proceed > button {
+    background-color: rgba(240,56,97,1);
+    position: absolute;
+    overflow: visible;
+    width: 284px;
+    height: 51px;
+    left: 999px;
+    top: 622px;
+    border-radius: 40px;
+    text-align: center;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(245,217,126,1);
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(165, 25, 55);
+    color: rgb(228, 187, 54);
+}
+
+#background {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(245,217,126,1);
+    overflow: visible;
+}
+
+#logo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+
+#addmenu-txt {
+    position: absolute;
+    left: 622px;
+    top: 227px;
+    overflow: visible;
+    width: 265px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(240,56,97,1);
+    letter-spacing: 0.2px;
+}
+
+.restaurantecategory-box {
+    position: absolute;
+    overflow: visible;
+    width: 647px;
+    height: 63px;
+    left: 622px;
+    top: 300px;
+}
+
+
+.proceed-box {
+    position: absolute;
+    overflow: visible;
+    width: 314px;
+    height: 50px;
+    left: 1001px;
+    top: 624px;
+}
+
+
+#proceed-txt {
+    position: absolute;
+    left: 1125px;
+    top: 636px;
+    overflow: visible;
+    width: 64px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: rgba(245,217,126,1);
+}
+
+#restaurant-category {
+    position: absolute;
+    left: 622px;
+    top: 317px;
+    overflow: visible;
+    width: 226px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(112,112,112,1);
+}
+
+ul {
+    list-style-type: none;
+    font-family: Segoe UI Symbol;
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+ul li {
+    background-color: rgba(240,56,97,1);
+    width: 280px;
+    height: 60px;
+    line-height: 60px;
+    color: rgba(245,217,126,1);
+    cursor: pointer;
+    float: left;
+    text-align: center;
+}
+
+ul li:hover {
+    background-color: rgb(165, 25, 55);
+    color: rgb(175, 144, 33);
+}
+
+ul li ul li {
+    text-align: center;
+    padding-left: 5px;
+    height: 45px;
+    line-height: 45px;
+    width: 280px;
+    margin-left: -150px;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.button{
+    list-style-type: none
+}
+
+a {
+    text-decoration: none;
+    color: rgba(245,217,126,1);
+}
+
+a:hover {
+   
+    color: rgb(175, 144, 33);
+}

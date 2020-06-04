@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+.form {
+    width: 0px;
+    height: 50px;
+    padding: 20px;
+}
+
+.card-client > button {
+    background-color: rgba(240,56,97,1);
+    position: absolute;
+    overflow: visible;
+    width: 680px;
+    height: 64px;
+    left: 620px;
+    top: 358px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(245,217,126,1);
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(165, 25, 55);
+    color: rgb(228, 187, 54);
+}
+
+.card-restaurant > button {
+    background-color: rgba(240,56,97,1);
+    position: absolute;
+    overflow: visible;
+    width: 680px;
+    height: 64px;
+    left: 620px;
+    top: 451px;
+    border-radius: 7px;
+    text-align: center;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(245,217,126,1);
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(165, 25, 55);
+    color: rgb(228, 187, 54);
+}
+
+#background {
+    position: absolute;
+    width: 1920px;
+    height: 1080px;
+    background-color: rgba(245,217,126,1);
+    overflow: hidden;
+}
+
+#logo {
+    position: absolute;
+    width: 237px;
+    height: 237px;
+    left: 842px;
+    top: 44px;
+    overflow: visible;
+}
+
+.client-box {
+    position: absolute;
+    overflow: visible;
+    width: 679px;
+    height: 63px;
+    left: 622px;
+    top: 360px;
+}
+
+#client-txt {
+    position: absolute;
+    left: 930px;
+    top: 377px;
+    overflow: visible;
+    width: 62px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(245,217,126,1);
+}
+
+#signup-txt {
+    position: absolute;
+    left: 627px;
+    top: 281px;
+    overflow: visible;
+    width: 360px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: rgba(240,56,97,1);
+    letter-spacing: 0.2px;
+}
+
+.restaurant-box {
+    position: absolute;
+    overflow: visible;
+    width: 679px;
+    height: 63px;
+    left: 622px;
+    top: 453px;
+}
+
+#restaurant-txt {
+    position: absolute;
+    left: 908px;
+    top: 470px;
+    overflow: visible;
+    width: 106px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Segoe UI Symbol;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(245,217,126,1);
+}
